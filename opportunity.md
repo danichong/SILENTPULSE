@@ -378,8 +378,3 @@ Contenido:
 
 Script: "Por ello, consideramos que SilentPulse es el proyecto ideal, con un modelo financieramente viable y operativamente factible para mitigar el riesgo médico en aislamiento, ideal para pasar al siguiente programa de validación, Navigate. ¿Nos acompañan en esta aventura? Muchas gracias."
 ```
-
-## Prototipo (landing + waitlist)
-```
-
-```
