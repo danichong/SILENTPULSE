@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#2b73c6"/>
+      <stop offset="1" stop-color="#1e4a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="#356fb9" />
+  <g transform="translate(24,24) scale(0.75)">
+    <circle cx="80" cy="80" r="80" fill="#2b73c6" opacity="0.14" />
+    <g stroke="#0b1622" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- house outline -->
+      <path d="M10 90 L80 20 L150 90" />
+      <path d="M30 90 L30 150 L130 150 L130 90" />
+      <!-- heart / pulse -->
+      <path d="M55 110 C55 95, 70 90, 80 100 C90 110, 105 95, 105 95 L120 70 L140 130" />
+    </g>
+    <g transform="translate(108,10)">
+      <rect x="0" y="0" width="28" height="28" rx="4" fill="#0b1622" />
+      <path d="M8 14 L12 14 L12 10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <path d="M12 10 L16 10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+  </g>
+</svg>

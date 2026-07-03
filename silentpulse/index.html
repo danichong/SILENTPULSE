@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SILENTPULSE — La certeza de ser rescatado</title>
+    <meta name="description" content="SilentPulse: protocolo automático de rescate residencial para personas que viven solas." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#">
+          <img src="logo.svg" alt="SilentPulse logo" class="logo" />
+          SILENTPULSE
+        </a>
+        <nav class="nav">
+          <a href="#features">Características</a>
+          <a href="#how">Cómo funciona</a>
+          <a href="#waitlist">Únete</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>La certeza de ser rescatado, incluso si no puedes hablar</h1>
+            <p class="lead">SilentPulse monitoriza biométricos y activa un protocolo automático de auxilio con geolocalización y ficha médica cuando detecta una crisis.</p>
+            <form id="waitlist-form" class="waitlist" aria-label="Formulario de lista de espera">
+              <input id="email" type="email" placeholder="Tu correo para la lista de espera" required />
+              <button type="submit" class="btn primary">Unirme a la lista</button>
+            </form>
+            <p class="small">Dirigido a adultos independientes, estudiantes foráneos y usuarios de wearables.</p>
+          </div>
+          <div class="hero-visual">
+            <div class="device">
+              <div class="pulse" aria-hidden="true"></div>
+              <img src="" alt="Mockup de app SilentPulse" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <h2>Qué hace SilentPulse</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Monitorización pasiva</h3>
+              <p>Detecta caídas y crisis biométricas sin interacción del usuario.</p>
+            </article>
+            <article class="card">
+              <h3>Temporizador fail‑safe</h3>
+              <p>Un temporizador táctil evita falsas alarmas y confirma eventos críticos.</p>
+            </article>
+            <article class="card">
+              <h3>Despacho automático</h3>
+              <p>Envía datos encriptados con ubicación y ficha médica a emergencias y contactos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section how">
+        <div class="container">
+          <h2>Cómo funciona</h2>
+          <ol class="steps">
+            <li>SilentPulse monitoriza tus indicadores desde smartphone y wearables.</li>
+            <li>Al detectarse una anomalía, se activa un temporizador táctil para cancelar falsas alertas.</li>
+            <li>Si no hay respuesta, se envía un paquete encriptado con ubicación y datos médicos a servicios de emergencia y contactos seleccionados.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="waitlist" class="section waitlist">
+        <div class="container">
+          <h2>Únete a la lista de lanzamiento</h2>
+          <p>Regístrate para ser notificado cuando lancemos la beta.</p>
+          <form id="waitlist-form-2" class="waitlist-2">
+            <input id="email2" type="email" placeholder="Correo electrónico" required />
+            <button type="submit" class="btn primary">Notificarme</button>
+          </form>
+          <p class="muted">Contacto: daniela@silentpulse.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 SilentPulse</span>
+        <nav class="footer-nav">
+          <a href="#privacy">Política de privacidad</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
